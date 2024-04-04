@@ -1,0 +1,15 @@
+ipykernel
+ipywidgets
+jupyterlab
+matplotlib
+numpy
+pandas
+pyarrow
+requests
+ruff
+scipy
+seaborn
+sqlalchemy
+statsmodels
+tqdm
+uv
