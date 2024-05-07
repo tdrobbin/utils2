@@ -21,6 +21,7 @@ openpyxl
 pandas
 plotly
 polars
+psycopg2
 pyarrow
 pydantic
 pydantic-settings
