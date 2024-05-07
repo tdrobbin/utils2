@@ -2,10 +2,13 @@ aiofiles
 aiohttp
 beautifulsoup4
 diskcache
+duckdb
+duckdb-engine
 fastapi
 holoviews
 html5lib
 hvplot
+ibis-framework[pandas,duckdb,polars]
 ipykernel
 ipywidgets
 joblib
@@ -17,6 +20,7 @@ numpy
 openpyxl
 pandas
 plotly
+polars
 pyarrow
 pydantic
 pydantic-settings
