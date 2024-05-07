@@ -12,6 +12,7 @@ databricks-sql-connector
 diskcache
 docker
 duckdb
+duckdb-engine
 extra-streamlit-components
 fastapi
 feature-engine
@@ -23,7 +24,7 @@ gitpython
 holoviews
 html5lib
 hvplot
-ibis
+ibis-framework[pandas,duckdb,polars,postgres]
 ipydatagrid
 ipykernel
 ipywidgets
@@ -55,6 +56,7 @@ prefect-github
 prefect-shell
 prefect-slack
 prophet
+psycopg2
 pycaret
 pycountry
 pydantic
