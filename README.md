@@ -2,24 +2,19 @@
 
 As separate steps
 ```
-# Step 1: Create the Conda environment
-conda create -n uv310l pip -y
+# Create the Conda environment and install uv
+conda create -n uv310m python=3.10 -y && conda activate uv310m && pip install uv
 
-# After creation, activate the environment in the terminal
-# Step 2: Activate the Conda environment (this might need to be done in a new command line prompt)
-conda activate uv310l
+# Use 'uv' for requirement management (assuming 'uv' has similar functionality to 'pip-tools')
+uv compile requirements-uv310m.in -o requirements-uv310m-arm64.txt
 
-# Step 3: Install 'uv' using pip (assumes 'pip' was installed in the environment)
-pip install uv
-
-# Step 4: Use 'uv' for requirement management (assuming 'uv' has similar functionality to 'pip-tools')
-uv compile requirements-uv310l.in -o requirements-uv310l.txt
-uv sync requirements-uv310l.txt
+# sync it up
+uv sync requirements-uv310m.txt
 ```
 
 As one step
 ```
-conda create -n uv310l pip -y && \
-bash -c "source activate uv310l && pip install uv && uv compile requirements-uv310l.in -o requirements-uv310l.txt && uv sync requirements-uv310l.txt"
-
+conda create -n uv310m python=3.10 -y && conda activate uv310m && pip install uv && \
+uv compile requirements-uv310m.in -o requirements-uv310m-arm64.txt && \
+uv sync requirements-uv310m-arm64.txt
 ```

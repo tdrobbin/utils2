@@ -2,7 +2,6 @@ aiofiles
 aiohttp
 aim-mlflow
 alphalens-reloaded
-backtestingduckdb
 beautifulsoup4
 boto3
 datashader
@@ -56,12 +55,12 @@ prefect-github
 prefect-shell
 prefect-slack
 prophet
-psycopg2
+psycopg
 pycaret
 pycountry
 pydantic
 pydantic-settings
-pyffolio-reloaded
+pyfolio-reloaded
 pygithub
 pykx
 pytest
@@ -74,6 +73,7 @@ qpython3
 ray[all]
 requests
 ruff
+scalene
 schedule
 scikit-learn
 scipy
@@ -83,6 +83,7 @@ snakeviz
 sqlalchemy
 statsmodels
 streamlit
+supabase
 sympy
 tenacity
 thefuzz
