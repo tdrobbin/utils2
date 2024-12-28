@@ -24,7 +24,7 @@ great-expectations
 holoviews
 html5lib
 hvplot
-ibis-framework[pandas,duckdb,polars,postgres,deltalake]
+ibis-framework[pandas,duckdb,polars,deltalake]
 ipydatagrid
 ipykernel
 ipywidgets
