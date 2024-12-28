@@ -57,7 +57,7 @@ prefect-github
 prefect-shell
 prefect-slack
 prophet
-psycopg
+psycopg2-binary
 pycaret
 pycountry
 pydantic
