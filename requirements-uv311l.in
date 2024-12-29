@@ -50,7 +50,7 @@ pandas-market-calendars
 playwright
 plotly
 polars
-prefect
+prefect=3.1.10
 prefect-docker
 prefect-email
 prefect-github
