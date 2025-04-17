@@ -40,7 +40,7 @@ ipykernel
 ipywidgets
 joblib
 jupyterlab
-kats
+# kats
 lightgbm
 litellm
 llama-index
