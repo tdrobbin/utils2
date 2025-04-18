@@ -7,11 +7,12 @@ asyncpg
 beautifulsoup4
 datacompy
 bokeh
-boto3
+# boto3
 chromadb
 crawl4ai
 cvxpy
 cyclopts
+# databricks-sdk
 datashader
 deltalake
 deepdiff
@@ -41,7 +42,6 @@ ipykernel
 ipywidgets
 joblib
 jupyterlab
-# kats
 lightgbm
 litellm
 llama-index
