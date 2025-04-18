@@ -14,6 +14,7 @@ cvxpy
 cyclopts
 datashader
 deltalake
+deepdiff
 diskcache
 docker
 duckdb
