@@ -21,6 +21,7 @@ docker
 duckdb
 duckdb-engine
 extra-streamlit-components
+fast-graphrag
 fastapi
 feature-engine
 featuretools
@@ -28,6 +29,7 @@ feedparser
 flaml
 geopandas
 gitpython
+google-genai
 granian
 great-expectations
 great-tables
