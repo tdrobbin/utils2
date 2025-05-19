@@ -18,6 +18,7 @@ deltalake
 deepdiff
 diskcache
 docker
+dspy
 duckdb
 duckdb-engine
 extra-streamlit-components
@@ -52,9 +53,11 @@ lxml
 markitdown
 marvin
 matplotlib
+mcp[cli]
 mlflow
 modin
 nautilus-trader
+nest-asyncio
 numba
 numexpr
 numpy
@@ -81,6 +84,7 @@ pyarrow
 pycaret
 pycountry
 pydantic
+pydantic-ai
 pydantic-settings
 pyfolio-reloaded
 pygithub
