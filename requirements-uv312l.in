@@ -45,6 +45,7 @@ ipykernel
 ipywidgets
 joblib
 jupyterlab
+lancedb
 lightgbm
 litellm
 llama-index
@@ -90,6 +91,7 @@ pyfolio-reloaded
 pygithub
 pygwalker
 pymc
+# pyspark
 pytest
 pytest-asyncio
 pytest-html
@@ -97,6 +99,7 @@ python-box
 python-dotenv
 pyyaml
 quantstats
+# ray[all]
 redis
 requests
 ruff
