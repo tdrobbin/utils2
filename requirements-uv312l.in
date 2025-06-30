@@ -44,6 +44,7 @@ ipydatagrid
 ipykernel
 ipywidgets
 joblib
+jupysql
 jupyterlab
 lancedb
 lightgbm
