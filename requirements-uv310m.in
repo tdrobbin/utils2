@@ -24,6 +24,7 @@ pandas
 plotly
 polars
 psycopg
+psycopg-binary
 pyarrow
 pydantic
 pydantic-settings
@@ -51,3 +52,4 @@ uv
 xlrd
 xlwt
 xlsxwriter
+
