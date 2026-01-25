@@ -23,6 +23,7 @@ openpyxl
 pandas
 plotly
 polars
+prefect
 psycopg
 psycopg-binary
 pyarrow
