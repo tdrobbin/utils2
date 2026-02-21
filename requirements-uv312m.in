@@ -23,6 +23,7 @@ pandas
 plotly
 polars
 prefect
+prophet
 psycopg
 psycopg-binary
 pyarrow
