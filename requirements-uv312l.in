@@ -1,7 +1,7 @@
 aiofiles
 aiohttp
 aiosqlite
-aim-mlflow
+# aim-mlflow
 alphalens-reloaded
 asyncpg
 beautifulsoup4
@@ -15,6 +15,7 @@ cyclopts
 # databricks-sdk
 datashader
 deltalake
+deepagents
 deepdiff
 diskcache
 docker
@@ -49,11 +50,11 @@ jupyterlab
 lancedb
 lightgbm
 litellm
-llama-index
+# llama-index
 loguru
 lxml
 markitdown
-marvin
+# marvin
 matplotlib
 mcp[cli]
 mlflow
@@ -74,7 +75,8 @@ playwright
 plotly
 polars
 praw
-prefect==3.1.10
+# prefect==3.1.10
+prefect
 prefect-docker
 prefect-email
 prefect-github
@@ -126,6 +128,7 @@ tqdm
 typer
 uv
 uvicorn
+vizro
 websockets
 xlrd
 xlwt
